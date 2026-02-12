@@ -1,0 +1,35 @@
+
+        *{
+        margin-top:5px;
+        padding:0;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+        .get{
+           margin-top:5px;
+           color: green;
+           font-size:large;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+     
+        .long{
+            margin-top:5px;
+           color: blue;
+           font-size:large;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .pen{
+             margin-top:5px;
+           color: grey;
+           font-size:large;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .popular{
+           margin-top:5px;
+           color: yellow;
+           font-size:large;
+           font-family:Arial, Helvetica, sans-serif; 
+        }
+      
