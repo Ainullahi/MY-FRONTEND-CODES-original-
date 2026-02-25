@@ -25,3 +25,18 @@
     text-decoration: none;
     padding-right: 15px;
 }
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+    padding:40px;
+    
+    
+}
+
+.bigcard{
+    grid-column: 1/4;
+}
+
+
