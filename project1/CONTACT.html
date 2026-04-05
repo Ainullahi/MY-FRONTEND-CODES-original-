@@ -3,8 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My FASHION APP😄</title>
+    <title>My contact page😎</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    padding:0;
+    margin:0;
+ }
+   .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    height:60px;
+}
+
+.navlinks{
+    display:flex;
+    gap:20px;
+    padding-right:30rem;
+}
+
+.logo h1{
+    color:white;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+    padding:40px;
+    justify-items: center;
+    
+}
+
+.bigcard{
+    grid-column: 1/4;
+    padding-bottom: 20px;
+}
+
+.profile{
+    align-items: center;
+  justify-items: center;
+
+}
+
+.container2{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:16rem;
+    padding-left:100px;
+}
+
+.container9{
+    margin-left: 10rem;
+}
+
+
+.hero{
+    background-color:black;
+  margin-top: 42px;                   
+  height: 50px;      
+  width: 85rem; 
+  display: flex;
+  flex-direction: column;
+}
+
+.container5{
+     background-color: grey; 
+  margin: 0;                       
+  width:86rem;
+  position: relative;
+  top:-0rem;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.dark{
+    color:white;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top:90px;
+}
+
+    </style>
 </head>
 <body>
     <nav class="navbar"> 
@@ -54,54 +143,42 @@
 
             <div class="mediumcard">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uCKRdS4b7Z_XbCTvnXwYDr3UvVYosev4gA&s" height="350px" width="600px">
-                <h3> Feeling Awesome</h3>
-                    <span>7-april-2026</span>
               </div>
 
                    <div class="smallcard">
                     <img  src="https://i.pinimg.com/736x/4e/cb/e1/4ecbe1973af67714537cd7cf9e97979a.jpg" height="300px" width="300px";style="padding-left:10px;" >
-                <h3> Feeling Lovely</h3>
-                    <span>2-march-2024</span>
               </div>
             </div>
-      
-            <div class="container3">
-
-                <div class="card1">
-                    <img src="https://images.unsplash.com/photo-1505968409348-bd000797c92e?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="600px" width="800px"; style="padding-left:5rem"> 
-                    </div>
-
-                <div class="card2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1dAh8IFYPhhjNi7ngaG78clW1GP1W7ZUyg&s" height="300px" width="300px";>
-                </div>
-                     </div>
-
-                 <div class="container4"> 
-                <div class="card3">
-                    <img src="https://i.pinimg.com/736x/8b/f7/86/8bf786acdc1de23b062f798b1f252102.jpg" height="300px" width="300px"; style="padding-left:62rem; position:relative; bottom:16rem">
-
             
-             <div class="card4">
-                <img src="https://i.pinimg.com/736x/8b/f7/86/8bf786acdc1de23b062f798b1f252102.jpg" height="400px" width="900px"; style="padding-left:7rem; position:relative; top:-90px">
-                </div>
+            <div class="container9">
+            <form>
+<label>  firstname </label>
+<input type="text">
+<input placeholder="your name" type="text"required>
+<br>  <br>
+<input placeholder="email" type="email">
+<br>  <br>
+<input placeholder="password" type="password">
+<br>      <br> </label>
+<label> your message here: </label> <br>
+<textarea cols="30" rows="10">
+</textarea>
+</form>
+</div>
 
-                <div class="hero">
+ <div class="hero">
                     <h4 style="color:white; margin-left: 10rem; align-items: flex-end;"> FACEBOOK</h4>
                     <h4 style="color:white; margin-left:40rem;">TWITTER</h4>
                     <h4 style="color:white; margin-left:70rem; position:relative; top:-18px">INSTAGRAM</h4>
                 </div>
              </div>
              
-                <div class="container5">
-                <div class="dark">
-                <span>pro</span><h1>L A U R E N</h1>
+    <div class="container5">
+        <div class="dark">
+            <span>pro</span><h1>L A U R E N</h1>
+
                 </div>
              </div>
-
             </div>
-
-        </div>
-    </section>
 </body>
 </html>
- 
