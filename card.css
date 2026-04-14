@@ -49,6 +49,31 @@
 .bigcard{
     grid-column: 1/4;
     padding-bottom: 20px;
+    flex:1 1 30% Grow,shrink,basis ;
+	min-height:400px;
+	min-width:850px;
+	border:1px solid #ddd;
+}
+
+.smallcard1{
+    flex:1 1 30% Grow,shrink,basis ;
+	min-height:200px;
+	min-width:300px;
+	border:1px solid #ddd;
+}
+
+.smallcard2{
+    flex:1 1 30% Grow,shrink,basis ;
+	min-height:200px;
+	min-width:300px;
+	border:1px solid #ddd;
+}
+
+.smallcard3{
+    flex:1 1 30% Grow,shrink,basis ;
+	min-height:200px;
+	min-width:300px;
+	border:1px solid #ddd;
 }
 
 .profile{
@@ -64,11 +89,27 @@
     padding-left:100px;
 }
 
+.mediumcard{
+    flex:1 1 30% Grow,shrink,basis ;
+	min-height:300px;
+	min-width:600px;
+	border:1px solid #ddd;
+}
+
+
 .container3{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     gap:8rem;
     padding-bottom: 20px;
+}
+
+.card1{
+    margin-top:3rem;
+      flex:1 1 30% Grow,shrink,basis ;
+	min-height:200px;
+	min-width:800px;
+	border:1px solid #ddd;
 }
 
 .container4{
