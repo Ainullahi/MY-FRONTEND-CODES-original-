@@ -1,0 +1,36 @@
+.navbar.app-navbar{
+    background-color: black;
+}
+
+.navbar.app-navbar .container-fluid .navbar-brand{
+    color: white;
+}
+
+.navbar.app-navbar .collapse .navbar-nav .nav-link{
+    color: white;
+    align-items: center;
+    padding-left: 60px;
+    
+    
+}
+
+.container.card-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar.app-navbar .collapse{
+    padding-left:200px;
+    
+}
+
+.navbar.app-navbar .collapse .navbar-nav .nav-item .dropdown-menu{
+    background-color: black;
+}
+
+.navbar.app-navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    color: grey;
+    
+}
