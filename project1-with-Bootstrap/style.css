@@ -27,3 +27,15 @@
 .navbar.app-navbar .collapse .navbar-nav .nav-item .dropdown-item{
     color:grey;
 }
+
+.container.card-container{
+    margin-left: 10rem;
+    
+}
+
+.container.width-container .smallcard2{
+    border-radius:50%;
+    margin-top:-43rem; 
+    margin-left:54rem;
+}
+
