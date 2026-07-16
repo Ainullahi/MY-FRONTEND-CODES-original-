@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f7efe8 0%, #efe3d5 100%);
+  color: #1f1f1f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar.app-navbar .collapse .navbar-nav .nav-link{
+    align-items:center;
+    padding-left:150px;
+    
+}
+
+.navbar.app-navbar .collapse .navbar-nav .nav-item .dropdown-item{
+    text-align:left;
+}
+
+.card.card-container{
+    margin-top:3rem;
+}
+
+.car-image-card {
+    margin-top: 5rem;
+}
+
+.newsletter-form {
+    margin-top: 1.5rem;
+}
+
+.newsletter-form .input-group {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.newsletter-form .form-control {
+    border: 1px solid #f0c9c1;
+    border-right: 0;
+    border-radius: 999px 0 0 999px;
+    padding: 0.8rem 1rem;
+    height: 3rem;
+}
+
+.newsletter-form .btn-subscribe {
+    border-radius: 0 999px 999px 0;
+    background-color: #f59bb8;
+    color: white;
+    border: 1px solid #f59bb8;
+    padding: 0 1.2rem;
+    white-space: nowrap;
+}
+
+.newsletter-form .btn-subscribe:hover {
+    background-color: #ed7f9e;
+    color: white;
+    
+}
+
+.container2.container3 {
+  margin-top: 2rem;
+}
+
+.smallcards.colorcards {
+  display: flex;
+  justify-content: center;
+}
+

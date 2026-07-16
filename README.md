@@ -7,3 +7,4 @@ PROJECT TWO : https://preview.themeforest.net/item/charifund-next-js-react-chari
 FINAL PROJECT
 
 https://themes.estudiopatagon.com/wordpress/edger/home-classic-w-intro/
+p
