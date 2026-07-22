@@ -6,10 +6,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar.app-navbar .collapse .navbar-nav .nav-link{
-    align-items:center;
-    padding-left:150px;
-    
+.navbar.app-navbar {
+  justify-content: center;
+}
+
+.navbar.app-navbar .navbar-nav {
+  width: 100%;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.navbar.app-navbar .nav-link {
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 500;
 }
 
 .navbar.app-navbar .collapse .navbar-nav .nav-item .dropdown-item{
