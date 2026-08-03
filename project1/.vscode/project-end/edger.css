@@ -66,6 +66,69 @@ body {
     
 }
 
+.contact-intro {
+  max-width: 900px;
+  margin: 3rem auto 0;
+  padding: 0 1.2rem;
+}
+
+.contact-intro-texts {
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.contact-intro-copy {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-form-panel {
+  margin: 2rem auto 0;
+  max-width: 42rem;
+  padding: 0 1rem;
+}
+
+.contact-field-group {
+  margin-top: 1.2rem;
+}
+
+.contact-input {
+  width: 100%;
+  max-width: 40rem;
+  height: 3rem;
+  border: 1px solid #d8c2b0;
+  border-radius: 999px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.contact-input-message {
+  height: 6rem;
+  border-radius: 1.5rem;
+  padding: 0.9rem 1rem;
+}
+
+.contact-submit-btn {
+  background-color: #f7a9c1;
+  width: 9rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-submit-label {
+  margin: 0;
+  padding: 0;
+}
+
 .container2.container3 {
   margin-top: 2rem;
 }
@@ -73,5 +136,41 @@ body {
 .smallcards.colorcards {
   display: flex;
   justify-content: center;
+}
+
+.tags-page {
+  max-width: 900px;
+  margin: 4rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.tags-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.tag-pill {
+  display: inline-block;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid #d8c2b0;
+  border-radius: 999px;
+  background: #fffdf9;
+  color: #5b4032;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.tag-pill:hover {
+  background: #f8e4d5;
+  color: #2f2119;
 }
 
